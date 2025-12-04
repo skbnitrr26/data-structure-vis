@@ -1,16 +1,84 @@
-# React + Vite
+AlgoLens 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive Data Structure and Algorithm Visualizer built with React, Tailwind CSS, and Framer Motion. This tool helps students and developers visualize how data structures work under the hood.
 
-Currently, two official plugins are available:
+🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Visualizers
 
-## React Compiler
+Stack (LIFO): Visualize Push, Pop, and Peek operations with "gravity" based stacking.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Queue (FIFO): Visualize Enqueue and Dequeue operations.
 
-## Expanding the ESLint configuration
+Linked List: See nodes and pointers dynamically update. Includes Append, Delete Head, and Delete Tail animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Binary Search Tree (BST):
+
+Recursive Insert animations.
+
+Complex Delete logic (Leaf, 1-Child, 2-Children nodes).
+
+Traversals: Animate Inorder, Preorder, and Postorder traversals.
+
+Sorting Algorithms:
+
+Visualize Bubble Sort, Selection Sort, and Insertion Sort.
+
+Includes a "Randomize Array" feature.
+
+2. User Experience
+
+Responsive Design: Mobile-friendly layout with dropdowns for smaller screens and tabs for desktop.
+
+Split Panels:
+
+Operations: Controls for adding/removing data.
+
+Canvas: The main visualization area.
+
+Logic: Explains the time complexity and rules of the current structure.
+
+Logs: A history of actions taken.
+
+Dark Mode: Fully themed UI with a toggle switch.
+
+Animation Speed: Adjustable speed slider to slow down or speed up algorithms.
+
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+Animations: Framer Motion
+
+Icons: Lucide React
+
+Getting Started
+
+Install Dependencies
+
+npm install
+
+
+Run Development Server
+
+npm run dev
+
+
+Build for Production
+
+npm run build
+
+
+Color Coding
+
+Indigo: Standard Nodes
+
+Amber: Comparison / Highlight / Search Target
+
+Emerald: Sorted / Completed
+
+Rose: Deletion / Swapping
+
+Built with ❤️ for Computer Science Education.
